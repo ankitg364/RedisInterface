@@ -3,9 +3,8 @@ GUI tool like phpmyadmin for performing various redis operations.
 
 ##Requirements
 
-1.The project in build using java as backend language and would require maven to build the project and tomcat to deploy
-
-2.For monitoring a Redis Instance all the monitoring data would be stored on redis instance with port 6380. So u need to ensure that redis instance on port 6380 is active.
+The project in build using java as backend language and would require maven to build the project and tomcat to deploy
+it.
 
 ##Steps to Run the Project
 
@@ -18,4 +17,27 @@ GUI tool like phpmyadmin for performing various redis operations.
 1. After opening the url first of all add the instances you want to perform operations on by specifying the ip address and port and clicking on the add button.
 2. After adding the instances you will see list of instances on left side with the active instances shown in bold characters.
 3. You can click on any of the active instances and start performing various operations.
+
+## Features
+
+1. Paginated view of keys i.e fetching 20 keys at time.
+2. Searching a key.
+3. Tree View of Keys.
+4. Adding,Deleting and Editing a key.
+5. All features for different types of keys.
+
+## Monitoring an Instance
+
+*(Monitored data is stored on localhost:6380)
+
+1. Light Monitoring - Monitors memory processed and clients connected and plots a graph.
+2. Heavy Monitoring - *(Warning) Decreases performance. Monitors top commands and top keys used.
+
+
+
+
+
+
+
+
 
