@@ -3,7 +3,8 @@ GUI tool like phpmyadmin for performing various redis operations.
 
 ##Requirements
 
-1.The project in build using java as backend language and would require maven to build the project and tomcat to deploy.
+1.The project in build using java as backend language and would require maven to build the project and tomcat to deploy
+
 2.For monitoring a Redis Instance all the monitoring data would be stored on redis instance with port 6380. So u need to ensure that redis instance on port 6380 is active.
 
 ##Steps to Run the Project
