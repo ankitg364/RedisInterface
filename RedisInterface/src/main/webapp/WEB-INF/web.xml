@@ -1,0 +1,250 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>Controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/view/login.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>keysServlet</servlet-name>
+        <servlet-class>Controller.KeysController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>keysServlet</servlet-name>
+        <url-pattern>/view/KeysController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addInstance</servlet-name>
+        <servlet-class>Controller.AddInstance</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addInstance</servlet-name>
+        <url-pattern>/view/addInstance.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addNewKey</servlet-name>
+        <servlet-class>Controller.AddNewKey</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addNewKey</servlet-name>
+        <url-pattern>/view/addNewKey.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>KeyType</servlet-name>
+        <servlet-class>Controller.KeyType</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>KeyType</servlet-name>
+        <url-pattern>/view/KeyType.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>KeyDetails</servlet-name>
+        <servlet-class>Controller.KeyDetails</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>KeyDetails</servlet-name>
+        <url-pattern>/view/KeyDetails.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HSetServlet</servlet-name>
+        <servlet-class>Controller.EditControllers.HSetController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HSetServlet</servlet-name>
+        <url-pattern>/view/HSetController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>Controller.EditControllers.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/view/ListController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetServlet</servlet-name>
+        <servlet-class>Controller.EditControllers.SetController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetServlet</servlet-name>
+        <url-pattern>/view/SetController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ZSetServlet</servlet-name>
+        <servlet-class>Controller.EditControllers.ZSetController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ZSetServlet</servlet-name>
+        <url-pattern>/view/ZSetController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StringServlet</servlet-name>
+        <servlet-class>Controller.EditControllers.StringController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StringServlet</servlet-name>
+        <url-pattern>/view/StringController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>Controller.SearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/view/SearchController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InfoServlet</servlet-name>
+        <servlet-class>Controller.InfoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoServlet</servlet-name>
+        <url-pattern>/view/InfoController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TreeViewServlet</servlet-name>
+        <servlet-class>Controller.TreeViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TreeViewServlet</servlet-name>
+        <url-pattern>/view/TreeViewController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCurrentAddressServlet</servlet-name>
+        <servlet-class>Controller.SetCurrentAddressController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCurrentAddressServlet</servlet-name>
+        <url-pattern>/view/SetCurrentAddressController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MonitorServlet</servlet-name>
+        <servlet-class>Controller.MonitorControllers.MonitorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MonitorServlet</servlet-name>
+        <url-pattern>/view/MonitorController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StartMonitorController</servlet-name>
+        <servlet-class>Controller.MonitorControllers.StartMonitorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StartMonitorController</servlet-name>
+        <url-pattern>/view/StartMonitorController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StopMonitorController</servlet-name>
+        <servlet-class>Controller.MonitorControllers.StopMonitorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StopMonitorController</servlet-name>
+        <url-pattern>/view/StopMonitorController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MemoryGraphData</servlet-name>
+        <servlet-class>Controller.MonitorControllers.MemoryGraphData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MemoryGraphData</servlet-name>
+        <url-pattern>/view/MemoryGraphData.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommandGraphData</servlet-name>
+        <servlet-class>Controller.MonitorControllers.CommandGraphData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommandGraphData</servlet-name>
+        <url-pattern>/view/CommandGraphData.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClientGraphData</servlet-name>
+        <servlet-class>Controller.MonitorControllers.ClientGraphData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientGraphData</servlet-name>
+        <url-pattern>/view/ClientGraphData.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TopCommmandsGraphData</servlet-name>
+        <servlet-class>Controller.MonitorControllers.TopCommandsGraph</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TopCommmandsGraphData</servlet-name>
+        <url-pattern>/view/TopCommandsGraphData.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TopKeysGraphData</servlet-name>
+        <servlet-class>Controller.MonitorControllers.TopKeysGraph</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TopKeysGraphData</servlet-name>
+        <url-pattern>/view/TopKeysGraphData.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StartMonitor</servlet-name>
+        <servlet-class>Controller.MonitorControllers.StartMonitor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StartMonitor</servlet-name>
+        <url-pattern>/view/StartMonitor.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StopMonitor</servlet-name>
+        <servlet-class>Controller.MonitorControllers.StopMontior</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StopMonitor</servlet-name>
+        <url-pattern>/view/StopMonitor.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ConnectClientServlet</servlet-name>
+        <servlet-class>Controller.ConnectClientController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConnectClientServlet</servlet-name>
+        <url-pattern>/view/ConnectClientController.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SlowLogController</servlet-name>
+        <servlet-class>Controller.MonitorControllers.SlowLogController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SlowLogController</servlet-name>
+        <url-pattern>/view/SlowLogController.do</url-pattern>
+    </servlet-mapping>
+
+</web-app>

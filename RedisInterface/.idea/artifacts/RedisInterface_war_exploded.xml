@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RedisInterface:war exploded">
+    <output-path>$PROJECT_DIR$/target/RedisInterface</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RedisInterface/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RedisInterface" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
